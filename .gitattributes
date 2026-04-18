@@ -1,0 +1,35 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto
+
+# Source code
+*.c text
+*.h text
+*.cpp text
+*.hpp text
+*.S text
+*.s text
+*.ld text
+
+# Config / project files
+*.cmake text
+*.txt text
+*.json text
+*.csv text
+*.yaml text
+*.yml text
+*.toml text
+*.md text
+
+# Shell scripts
+*.sh text eol=lf
+
+# Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files
+*.bin binary
+*.elf binary
+*.img binary
+*.gz binary
+*.zip binary

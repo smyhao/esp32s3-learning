@@ -3,14 +3,7 @@
   "idf.openOcdConfigs": [
     "board/esp32s3-builtin.cfg"
   ],
-  "idf.currentSetup": "h:\\espressif\\esp-idf_directory\\v5.5.4\\esp-idf",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32s3"
-  },
-  "clangd.path": "h:\\espressif\\esp-idf_tools\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
-  "clangd.arguments": [
-    "--background-index",
-    "--query-driver=**",
-    "--compile-commands-dir=h:\\espressif\\esp32s3\\00_basic\\build"
-  ]
+  }
 }
