@@ -1,0 +1,46 @@
+menu "LED Locator Configuration"
+
+config STRIP0_GPIO
+    int "Strip 0 GPIO"
+    default 8
+    help
+        GPIO pin for the first LED strip.
+
+config STRIP0_COUNT
+    int "Strip 0 LED Count"
+    default 30
+    range 0 256
+
+config STRIP1_GPIO
+    int "Strip 1 GPIO (-1 = disabled)"
+    default -1
+
+config STRIP1_COUNT
+    int "Strip 1 LED Count"
+    default 0
+    range 0 256
+
+config STRIP2_GPIO
+    int "Strip 2 GPIO (-1 = disabled)"
+    default -1
+
+config STRIP2_COUNT
+    int "Strip 2 LED Count"
+    default 0
+    range 0 256
+
+config STRIP3_GPIO
+    int "Strip 3 GPIO (-1 = disabled)"
+    default -1
+
+config STRIP3_COUNT
+    int "Strip 3 LED Count"
+    default 0
+    range 0 256
+
+config HTTP_SERVER_PORT
+    int "HTTP Server Port"
+    default 80
+    range 1 65535
+
+endmenu
